@@ -4,49 +4,54 @@
         <meta name="Robotics" description="We our the next generation of technology">
         <title>Tech Meet</title>
         <link rel="shortcut icon" type=".jpg" href="Logo.jpg">
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-    <div class="main">
+<body>
+    <nav class="main">
         <h2><a href="index.html"><img src="Logo.jpg"></a></h2>
         <ul>
-        <a href="index.html"><span>Home</span></a>
+        <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="sponsorship.html">Our Sponsorship</a>
         <a href="contact.html">Contact Us</a>
         </ul>
-    </div>
-    <section class="advertiser">
-        <p>We our the next generation of technology.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <button href="about.html" class="btn"><a href="about.html"><h5>See <br>More </h5></a></button>
-    </section>
-    </body>
+    </nav>
+<section class="About">
+<h2>It is Springhall British School</h2>
+<p>Springhall British School has thirteen subjects which
+are Maths, English, Science, Hummanities(History/Geography),
+Art, Music, DT, PE, PSHE, RE, Computing, French. Also there
+are sixteen classes in the primary school, from Year one to
+Year six. From Year one to Year four, there are three classes
+in each year, meanwhile, year five and year six have two 
+classes in each of the classes. These are: Year One Heron,
+Year One Falcon, Year One Eagle, Year Two Macaw, Year Two Otter,
+Year Two Seal, Year Three Crane, Year Three Sparrow, Year Three
+Toucan, Year Four Orca, Year Four Walrus, Year Four Dolphin, Year
+Five Swan, Year Five Robin, Year 6 Okapi, Year Six Gazelle. The
+names of the classes were names of animals e.g.: Year Two Otter, 
+Otter is a name of a canivorous mammal, which is an animal.</p>
+<h3>Events</h3>
+<p>Just like the events of a robotics competition, Springhall
+British School has its own competition. Some of them are The 
+FIFA Tournament, SBS Got Talent (SBS is the acronym for
+Springhall British School), and so on. These competitions hold
+every school session. The most latest one was Springhall's
+Masterchef, The FIFA Tournament and SBS Got Talent.
+Springhall's Head ICT teacher Michael Okpor is the reason
+of this team being created.</p>
 
-    <footer class="footer">
-        <nav>
-            <h2><a href="index.html">Tech <span>Meet</span></a></h2>
-            <a href="https://www.twitch.tv/itztechmeet"><img src="twitch.png" alt=""></a>
-            <a rel="chrome"href="https://twitter.com/itztechmeet"><img src="twitter.png"></a>
-            <a rel="chrome"href="https://www.instagram.com"><img src="Instagram.jpg"></a>
-            <a rel="chrome"href="https://www.tiktok.com/en/"><img src="TikTok.png"></a>
-            <a rel="chrome"href="https://www.youtube.com/@techmeet903/featured"><img src="Youtube.png"></a>
-        </nav>
-    </footer>
-    
-</html>
+
+</section>
+<footer class="footer">
+    <nav>
+        <h2><a href="index.html">Tech <span>Meet</span></a></h2>
+        <a rel="chrome" href="https://twitter.com/itztechmeet"><img src="twitter.png" alt=""></a>
+        <a rel="chrome"href="https://www.instagram.com"><img src="Instagram.jpg"></a>
+        <a rel="chrome"href="https://www.tiktok.com/en/"><img src="TikTok.png"></a>
+        <a rel="chrome"href="https://www.youtube.com/"><img src="Youtube.png"></a>
+    </nav>
+</footer>
 <style>
     @import url("https://fonts.google.com/specimen/Raleway?query=Raleway");
 
@@ -78,6 +83,24 @@ html {
     float: left;
 }
 
+.main h2 {
+    float: left;    
+    color:rgba(255, 254, 255, 0.943);
+    text-align: left;
+    padding: .2em;
+}
+
+.main h2 a{
+    color: azure;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+}
+
+.main h2 span {
+    color: red;
+}
+
 .main ul {
     list-style: none;
     display: flex;
@@ -85,17 +108,12 @@ html {
 
 .main ul a {
     display: inline;
-    padding: left 8px;
-    padding: right 8px; 
+    padding: 10px 30px;
     float: right;
     text-decoration: none;
     color: aliceblue;
 
     transition: 0.6s;
-}
-
-.main ul a span {
-    color: red;
 }
 
 .main ul a:hover {
@@ -174,8 +192,8 @@ html {
     border: none;
     color: white;
     padding: 15px 32px;
-    height: 100px;
-    width: 200px;
+    height: 90px;
+    width: 10%;
     float: none;
     text-decoration: none;
     display: inline-block;
@@ -192,10 +210,8 @@ html {
 }
 
 .btn a {
-    text-align: center;
     font-size: 1.4em;
     color: azure;
-    text-decoration: none;
 }
 
 .btn:hover {
@@ -229,6 +245,12 @@ html {
 .About h3 {
     float: center;
     text-align: center;
+}
+
+.advertiser a{
+    font-size: 1.9em;
+    color: blue;
+    text-decoration: none;
 }
 
 .footer {

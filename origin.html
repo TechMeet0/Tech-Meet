@@ -4,49 +4,51 @@
         <meta name="Robotics" description="We our the next generation of technology">
         <title>Tech Meet</title>
         <link rel="shortcut icon" type=".jpg" href="Logo.jpg">
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+<body>
     <div class="main">
         <h2><a href="index.html"><img src="Logo.jpg"></a></h2>
         <ul>
-        <a href="index.html"><span>Home</span></a>
+        <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="sponsorship.html">Our Sponsorship</a>
-        <a href="contact.html">Contact Us</a>
         </ul>
     </div>
-    <section class="advertiser">
-        <p>We our the next generation of technology.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <button href="about.html" class="btn"><a href="about.html"><h5>See <br>More </h5></a></button>
-    </section>
-    </body>
-
-    <footer class="footer">
-        <nav>
-            <h2><a href="index.html">Tech <span>Meet</span></a></h2>
-            <a href="https://www.twitch.tv/itztechmeet"><img src="twitch.png" alt=""></a>
-            <a rel="chrome"href="https://twitter.com/itztechmeet"><img src="twitter.png"></a>
-            <a rel="chrome"href="https://www.instagram.com"><img src="Instagram.jpg"></a>
-            <a rel="chrome"href="https://www.tiktok.com/en/"><img src="TikTok.png"></a>
-            <a rel="chrome"href="https://www.youtube.com/@techmeet903/featured"><img src="Youtube.png"></a>
-        </nav>
-    </footer>
-    
-</html>
+<nav class="nav main-nav">
+    <ul>
+        <a href="origin.html">Our Origin</a>
+        <a href="team.html">Our Technological Team</a>
+    </ul>
+</nav>
+<section class="About">
+<h2>How it began</h2>
+<p>After Tamuno's Python(a programming language) Certification process,
+he went on to research on the Vex Robotics industry. And as he went on
+with his research, he discovered that they hold competitions abroad, out
+which means it is held out of Nigeria .Later on, he requested from his
+school if they could help him for a team for his school, Springhall 
+British School.</p>
+<p>It was in 2022/23 that Eric Aduku and Tamuno Ben-Kalio collaborated on a coding team
+called Tech Meet. The two of them were in Year 6 so this team was built by Year
+6s for Year 6, Year 7s and Year 8s. In the 2022/23 session,
+when the dual were in Year 6, the team was assembled, approved
+and secure. Thanks to Tamuno being a media prefect it was
+easier to assemble the team. A media prefect is a school
+prefect that deals with anything media and technology,
+that was a pretty big job as a child. Either way it is
+to show how Springhall British School encourages responsibility
+to train Year 6s to be successful in the future.</p>
+</section>
+<footer class="footer">
+    <nav>
+        <h2><a href="index.html">Tech <span>Meet</span></a></h2>
+        <a rel="chrome"href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F"><img src="Images/Facebook.png"></a>
+        <a rel="chrome"href="https://itz.tech.meet\"><img src="Images/Instagram.jpg"></a>
+        <a rel="chrome"href="https://www.tiktok.com/en/"><img src="Images/TikTok.png"></a>
+        <a rel="chrome"href="https://www.youtube.com/"><img src="Images/Youtube.png"></a>
+    </nav>
+</footer>
 <style>
     @import url("https://fonts.google.com/specimen/Raleway?query=Raleway");
 
@@ -64,7 +66,7 @@ html {
     height: 80px;
     width: 100%;
     background-image: url("Header\ Background.jpg");
-    background-color: rgb(9, 3, 27);
+    background-color: rgb(12, 6, 30);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,6 +80,24 @@ html {
     float: left;
 }
 
+.main h2 {
+    float: left;    
+    color:rgba(255, 254, 255, 0.943);
+    text-align: left;
+    padding: .2em;
+}
+
+.main h2 a{
+    color: azure;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+}
+
+.main h2 span {
+    color: red;
+}
+
 .main ul {
     list-style: none;
     display: flex;
@@ -85,17 +105,12 @@ html {
 
 .main ul a {
     display: inline;
-    padding: left 8px;
-    padding: right 8px; 
+    padding: 10px 30px;
     float: right;
     text-decoration: none;
     color: aliceblue;
 
     transition: 0.6s;
-}
-
-.main ul a span {
-    color: red;
 }
 
 .main ul a:hover {
@@ -174,8 +189,8 @@ html {
     border: none;
     color: white;
     padding: 15px 32px;
-    height: 100px;
-    width: 200px;
+    height: 90px;
+    width: 10%;
     float: none;
     text-decoration: none;
     display: inline-block;
@@ -192,10 +207,8 @@ html {
 }
 
 .btn a {
-    text-align: center;
     font-size: 1.4em;
     color: azure;
-    text-decoration: none;
 }
 
 .btn:hover {
@@ -229,6 +242,12 @@ html {
 .About h3 {
     float: center;
     text-align: center;
+}
+
+.advertiser a{
+    font-size: 1.9em;
+    color: blue;
+    text-decoration: none;
 }
 
 .footer {
